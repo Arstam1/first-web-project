@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: 'Barlow', sans-serif;
+}
+
+/* Font */
+barlow {
+    font-family: "Barlow", sans-serif;
+}
+
+.nunito {
+    font-family: "Nunito", sans-serif;
+    }
+
+.text-super-besar {
+font-size: 60px;
+}
+.text-besar {
+    font-size: 50px;
+}
+
+.text-sedang{
+    font-size: 30px;
+}
+
+.text-normal {
+    font-size: 18px;
+}
+
+.text-kecil {
+    font-size: 14px;
+}
+
+/*warna*/
+.text-hitam {
+    color: black;
+}
+
+.text-abu {
+    color: #b7b7b7;
+}
+
+.text-putih {
+    color: #ffffff;
+}
+
+.text-oren {
+    color: #ffac77;
+}
+
+.text-biru {
+    color: #71a8ff;
+}
+
+/* navbar */
+
+.nav-link{
+ font-size: 18;
+ font-weight: 500;
+ margin: 0px 10 px;
+ color: white;   
+}
+
+/* button */
+.btn{
+    font-size: 18;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.btn-outline-warning{
+    border: 2px solid #f9b88e;
+}
+
+.btn-warning{
+    background-color: #f9b88e;
+}
+
+.btn-info{
+    background-color: #8ee3f9;
+}
+
+.btn-info:hover{
+    background-color: #dcf4fa;
+}
+
+/* hero */
+#hero{
+    background-image: url('img/bc1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    padding-top: 100px;
+}
+
+#hor-blok{
+    background-color:#b8b8b8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 20px; */
+    background-position: center;
+    padding-top: 100px;
+}
+
+/*services*/
+#services{
+    background-image: url('img/latar_servis.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*watch*/
+#watch{
+    background-image: linear-gradient(to right, #cccac7 0%, #f8f6f2 50%);
+}
+
+/* .form-control{
+    border-radius: 30px 0px 0px 30px;
+    border: 2px solid #f9b88e;
+} */
+
+/* sign */
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+}
+  
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+  
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+/* end sign */
+
+/* regis */
+.form-regis {
+    max-width: 330px;
+    padding: 1rem;
+}
+.form-regis .form-floating:focus-within {
+    z-index: 2;
+}
+.form-regis input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-regis input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+} 
+.form-regis input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+/* end regis */
+
+/* pop up */
+#konfirmasi-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+#konfirmasi-popup h2 {
+    margin-bottom: 10px;
+}
+
+#konfirmasi-popup p {
+    margin-bottom: 20px;
+}
+
+
+
+#konfirmasi-popup button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#konfirmasi-popup button:hover {
+    background-color: #45a049;
+}
+
+/* end konfirmasi pop up */
